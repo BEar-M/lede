@@ -90,6 +90,7 @@ jobs:
           CONFIG_DOCKER_CGROUP_OPTIONS=y
           CONFIG_DOCKER_NET_MACVLAN=y
           CONFIG_DOCKER_STO_EXT4=y
+          CONFIG_GRUB_IMAGES=y
           CONFIG_KERNEL_CGROUP_DEVICE=y
           CONFIG_KERNEL_CGROUP_FREEZER=y
           CONFIG_KERNEL_CGROUP_NET_PRIO=y
@@ -157,6 +158,7 @@ jobs:
           CONFIG_PACKAGE_runc=y
           CONFIG_PACKAGE_tini=y
           CONFIG_PACKAGE_unzip=y
+          CONFIG_VHDX_IMAGES=y
           # CONFIG_PACKAGE_kmod-inet-diag is not set
           EOF
 
